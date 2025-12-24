@@ -1,5 +1,9 @@
-// import CSS Bootstrap
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Alpine from 'alpinejs'
+import { createIcons, icons } from 'lucide'
 
-// import JS Bootstrap + Popper
-import 'bootstrap';
+window.Alpine = Alpine
+Alpine.start()
+
+document.addEventListener('DOMContentLoaded', () => {
+    createIcons({ icons })
+})

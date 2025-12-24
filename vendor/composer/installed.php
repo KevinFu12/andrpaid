@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'laravel/laravel',
-        'pretty_version' => 'v12.10.1',
-        'version' => '12.10.1.0',
-        'reference' => null,
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '262bd19ac2fc9dfec211e31c000d67a023bddd0f',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -382,6 +382,15 @@
                 0 => '*',
             ),
         ),
+        'laravel/breeze' => array(
+            'pretty_version' => 'v2.3.8',
+            'version' => '2.3.8.0',
+            'reference' => '1a29c5792818bd4cddf70b5f743a227e02fbcfcd',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../laravel/breeze',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
         'laravel/framework' => array(
             'pretty_version' => 'v12.40.2',
             'version' => '12.40.2.0',
@@ -392,9 +401,9 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => 'v12.10.1',
-            'version' => '12.10.1.0',
-            'reference' => null,
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '262bd19ac2fc9dfec211e31c000d67a023bddd0f',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
